@@ -1,6 +1,6 @@
 # wp-homebrew
 
-Signed catalogue of homebrew apps for Windows Phone 8.1, read by **Unesbrews** (homebrew apps by Younes) on the phone.
+Signed catalog of homebrew apps for Windows Phone 8.1, read by **Unesbrews** (homebrew apps by Younes) on the phone.
 
 - `apps/<id>.json`: one file per app (listing info + releases with URL, SHA-256, size).
 - `dist/index.json` + `dist/index.json.sig`: the signed index GitHub Pages serves. Never edit by hand.

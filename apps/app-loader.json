@@ -1,0 +1,25 @@
+{
+  "id": "app-loader",
+  "name": "App Loader",
+  "author": "",
+  "description": "Install and update homebrew apps on the phone, from files or this catalogue.",
+  "license": "",
+  "source": "",
+  "icon": "",
+  "releases": [
+    {
+      "version": "0.1.0.0",
+      "kind": "xap81",
+      "arch": "neutral",
+      "package_name": "AppLoader",
+      "product_id": "0145BB18-825E-4266-9094-5CA73FEF56A9",
+      "publisher": "CN=Retrofox",
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/AppLoader_0.1.0.0.xap",
+      "sha256": "f247c3195b0bef45263b28559619872382bd2aa262b0ea1570a9ea7403eefe96",
+      "size": 1909628,
+      "min_os": "8.10.0.0",
+      "notes": "",
+      "added": "2026-11-09"
+    }
+  ]
+}

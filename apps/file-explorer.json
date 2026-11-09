@@ -1,0 +1,25 @@
+{
+  "id": "file-explorer",
+  "name": "File Explorer",
+  "author": "",
+  "description": "Root file manager: whole filesystem, copy/move/delete, viewer, web access.",
+  "license": "",
+  "source": "",
+  "icon": "",
+  "releases": [
+    {
+      "version": "0.1.1.0",
+      "kind": "xap81",
+      "arch": "neutral",
+      "package_name": "RetroFiles",
+      "product_id": "4F2D373F-9B22-4224-9D65-5D974F803959",
+      "publisher": "CN=Retrofox",
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/FileExplorer_0.1.1.0.xap",
+      "sha256": "c066311199dd8cd78b4fc415bb085b9a96ac198f7774693be0c8b83096a7f047",
+      "size": 210408,
+      "min_os": "8.10.0.0",
+      "notes": "",
+      "added": "2026-11-09"
+    }
+  ]
+}

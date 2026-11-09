@@ -1,6 +1,6 @@
 # wp-homebrew
 
-Signed catalogue of homebrew apps for Windows Phone 8.1, read by the **App Loader** app on the phone.
+Signed catalogue of homebrew apps for Windows Phone 8.1, read by **Unesbrews** (homebrew apps by Younes) on the phone.
 
 - `apps/<id>.json`: one file per app (listing info + releases with URL, SHA-256, size).
 - `dist/index.json` + `dist/index.json.sig`: the signed index GitHub Pages serves. Never edit by hand.
@@ -18,5 +18,5 @@ REM copy Some_1.0.0.0_ARM.appx into packages\
 git add apps dist packages && git commit -m "Add Some 1.0.0.0" && git push
 ```
 
-The signing key never goes in this repo or in CI. Its public half is built into the App Loader.
+The signing key never goes in this repo or in CI. Its public half is built into Unesbrews.
 Only list apps that may be redistributed.

@@ -5,21 +5,23 @@
   "description": "Mail client with modern TLS (IMAP/SMTP).",
   "license": "",
   "source": "",
-  "icon": "",
+  "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrobird.png",
   "releases": [
     {
-      "version": "0.1.1.0",
+      "version": "0.1.2.0",
       "kind": "xap81",
       "arch": "neutral",
       "package_name": "Retrobird",
       "product_id": "C3AEE8D4-1737-44DD-9024-374293813696",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.1.1.0.xap",
-      "sha256": "387238cb91d1b4e2abf853a1d308ba4e579e512d9220aade2d638b9be4280b64",
-      "size": 1868266,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.1.2.0.xap",
+      "sha256": "386deb62099653565d92b1e101203c254aefdf8e84b4eabd01ee0c226358b4ed",
+      "size": 3178652,
       "min_os": "8.10.0.0",
       "notes": "",
       "added": "2026-11-09"
     }
-  ]
+  ],
+  "icon_sha256": "6b06bbbec751041f770947c33c7a0e6bddaa254331a62d9261208e79f40dff97",
+  "icon_size": 2412
 }

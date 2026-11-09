@@ -5,21 +5,23 @@
   "description": "Gecko-based web browser with modern TLS.",
   "license": "MPL-2.0",
   "source": "",
-  "icon": "",
+  "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrofox.png",
   "releases": [
     {
-      "version": "0.3.1.0",
+      "version": "0.3.2.0",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrofox.Browser",
       "product_id": "6F06E8EC-8324-431B-88EC-9542C6C8C48C",
       "publisher": "CN=Younes",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.1.0_ARM.appx",
-      "sha256": "b50e43f3ce59ddd984596c2e7d774079f4a3593e7a9b8aee0c36e366b0212238",
-      "size": 30412207,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.2.0_ARM.appx",
+      "sha256": "34c7d3fc4730fd1e518ad5da821b9099ceb2395d98f01907cce3df524b9d5cdf",
+      "size": 30413506,
       "min_os": "8.10.0.0",
       "notes": "",
       "added": "2026-11-09"
     }
-  ]
+  ],
+  "icon_sha256": "497fd3b8681460413d32612b81f72b0218a3291af92fbd4548ddb7724e4e681a",
+  "icon_size": 3124
 }

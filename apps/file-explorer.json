@@ -5,7 +5,7 @@
   "description": "Root file manager: whole filesystem, copy/move/delete, viewer, web access.",
   "license": "",
   "source": "",
-  "icon": "",
+  "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/file-explorer.png",
   "releases": [
     {
       "version": "0.1.1.0",
@@ -21,5 +21,7 @@
       "notes": "",
       "added": "2026-11-09"
     }
-  ]
+  ],
+  "icon_sha256": "6dff3dab87350c3fb7dca09cb8b06e804e98fce1601869bc7b950030cac7c8d9",
+  "icon_size": 10703
 }

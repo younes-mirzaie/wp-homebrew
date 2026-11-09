@@ -1,25 +1,27 @@
 {
   "id": "app-loader",
-  "name": "App Loader",
+  "name": "Unesbrews",
   "author": "",
-  "description": "Install and update homebrew apps on the phone, from files or this catalogue.",
+  "description": "Homebrew apps by Younes",
   "license": "",
   "source": "",
-  "icon": "",
+  "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/app-loader.png",
   "releases": [
     {
-      "version": "0.1.0.0",
+      "version": "0.1.2.0",
       "kind": "xap81",
       "arch": "neutral",
       "package_name": "AppLoader",
       "product_id": "0145BB18-825E-4266-9094-5CA73FEF56A9",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/AppLoader_0.1.0.0.xap",
-      "sha256": "f247c3195b0bef45263b28559619872382bd2aa262b0ea1570a9ea7403eefe96",
-      "size": 1909628,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Unesbrews_0.1.2.0.xap",
+      "sha256": "946c80e4a1bd2311b5d36604b64d3376a7f038988275d0be39f335f5d1321068",
+      "size": 1887553,
       "min_os": "8.10.0.0",
       "notes": "",
       "added": "2026-11-09"
     }
-  ]
+  ],
+  "icon_sha256": "2ec619c1e872ac240069aa83215aa0a21c1f7cec6d604886366680906358ee5b",
+  "icon_size": 3712
 }

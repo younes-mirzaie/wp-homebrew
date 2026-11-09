@@ -1,0 +1,21 @@
+# wp-homebrew
+
+Signed catalogue of homebrew apps for Windows Phone 8.1, read by the **App Loader** app on the phone.
+
+- `apps/<id>.json`: one file per app (listing info + releases with URL, SHA-256, size).
+- `dist/index.json` + `dist/index.json.sig`: the signed index GitHub Pages serves. Never edit by hand.
+- Packages are GitHub Release assets of this repo (or another URL; the SHA-256 pins them).
+
+## Publishing a release
+
+```
+python catalog.py add Some_1.0.0.0_ARM.appx ^
+    --url https://github.com/<owner>/wp-homebrew/releases/download/some-1.0.0.0/Some_1.0.0.0_ARM.appx ^
+    --app-dir apps
+REM fill in description, license, source, icon in apps\<id>.json
+python catalog.py build --key <path-to-signing-key.pem> --app-dir apps --out dist
+git add apps dist && git commit -m "Add Some 1.0.0.0" && git push
+```
+
+The signing key never goes in this repo or in CI. Its public half is built into the App Loader.
+Only list apps that may be redistributed.

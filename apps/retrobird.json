@@ -8,15 +8,15 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrobird.png",
   "releases": [
     {
-      "version": "0.1.8.0",
+      "version": "0.1.9.0",
       "kind": "xap81",
       "arch": "neutral",
       "package_name": "Retrobird",
       "product_id": "C3AEE8D4-1737-44DD-9024-374293813696",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.1.8.0.xap",
-      "sha256": "a255e154495091a1b9b952c826107ef5d91674a1a314e4a6670968285f6d4a3e",
-      "size": 1875449,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.1.9.0.xap",
+      "sha256": "86454ba33fd102245b5992bb72f9a600ca8b36bebf6f631d6d11cc62b4809c87",
+      "size": 1875975,
       "min_os": "8.10.0.0",
       "notes": "",
       "added": "2026-11-10"

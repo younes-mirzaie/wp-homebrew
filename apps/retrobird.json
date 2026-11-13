@@ -8,18 +8,18 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrobird.png",
   "releases": [
     {
-      "version": "0.1.9.0",
-      "kind": "xap81",
-      "arch": "neutral",
+      "version": "0.2.0.0",
+      "kind": "appx",
+      "arch": "arm",
       "package_name": "Retrobird",
       "product_id": "C3AEE8D4-1737-44DD-9024-374293813696",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.1.9.0.xap",
-      "sha256": "86454ba33fd102245b5992bb72f9a600ca8b36bebf6f631d6d11cc62b4809c87",
-      "size": 1875975,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.2.0.0_ARM.appx",
+      "sha256": "4c48d51706fc8bb599bae944edacf5ea4c204e48b0fa2d81b63da053581a94e3",
+      "size": 1929083,
       "min_os": "8.10.0.0",
-      "notes": "",
-      "added": "2026-11-10"
+      "notes": "Now a Windows Phone 8.1 app, so its mail engine runs inside it again.",
+      "added": "2026-11-13"
     }
   ],
   "icon_sha256": "99a005ef390ee1a5e4c94698a9f9d1ae960f5611b7fc6c3dbf24317a75cf020c",

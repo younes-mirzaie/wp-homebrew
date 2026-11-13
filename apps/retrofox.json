@@ -8,18 +8,18 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrofox.png",
   "releases": [
     {
-      "version": "0.3.4.0",
+      "version": "0.3.5.0",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrofox.Browser",
       "product_id": "6F06E8EC-8324-431B-88EC-9542C6C8C48C",
       "publisher": "CN=Younes",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.4.0_ARM.appx",
-      "sha256": "e45c3619799f272371c7784978039d8ce51a4b11369fc244b7ef4cf0599d660d",
-      "size": 30428991,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.5.0_ARM.appx",
+      "sha256": "15cbb287d93b477641d61e9d93b1db6d60a1113d00587ea552a8e815cb19ce36",
+      "size": 30430206,
       "min_os": "8.10.0.0",
-      "notes": "",
-      "added": "2026-11-10"
+      "notes": "Smaller frames while scrolling, scroll steps handled together, fixed header fixes; menu in Internet Explorer's order.",
+      "added": "2026-11-14"
     }
   ],
   "icon_sha256": "ddfdccbe71a44468709fc28fe8d41f32199e8654090fda3aea92117b5a1fe4a2",

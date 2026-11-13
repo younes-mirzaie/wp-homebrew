@@ -8,20 +8,20 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/file-explorer.png",
   "releases": [
     {
-      "version": "0.1.4.0",
+      "version": "0.1.5.0",
       "kind": "xap81",
       "arch": "neutral",
       "package_name": "RetroFiles",
       "product_id": "4F2D373F-9B22-4224-9D65-5D974F803959",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/FileExplorer_0.1.4.0.xap",
-      "sha256": "c808facd41effe7545e6c3ecfc83a8d769f3b7a2e0e9d81267ff27d84a9c8f07",
-      "size": 179835,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/FileExplorer_0.1.5.0.xap",
+      "sha256": "25e3fce62cced16df5f5969859a5652fe242d4bd3227e689923557961e9b9f61",
+      "size": 205489,
       "min_os": "8.10.0.0",
       "notes": "",
-      "added": "2026-11-10"
+      "added": "2026-11-13"
     }
   ],
-  "icon_sha256": "66fecb99a1e9ce929cf059a9e55f924ddad335a5b50c52aa66326f4930676b9b",
-  "icon_size": 1448
+  "icon_sha256": "9bea8c02dc58550512c4f86c39dc2950b5d46df82a555f934842707d9962912a",
+  "icon_size": 3199
 }

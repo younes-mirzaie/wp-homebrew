@@ -8,18 +8,18 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/app-loader.png",
   "releases": [
     {
-      "version": "0.1.6.0",
+      "version": "0.1.7.0",
       "kind": "xap81",
       "arch": "neutral",
       "package_name": "AppLoader",
       "product_id": "0145BB18-825E-4266-9094-5CA73FEF56A9",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Unesbrews_0.1.6.0.xap",
-      "sha256": "4aa41002506e2cfcc280599ad5b654fb6ae3aeec3c35ca965e814dcf4ec4866c",
-      "size": 1911162,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Unesbrews_0.1.7.0.xap",
+      "sha256": "8e7d0219183274a2298815259586444929eba2581030d2c51125d8492a294758",
+      "size": 1911555,
       "min_os": "8.10.0.0",
       "notes": "",
-      "added": "2026-11-10"
+      "added": "2026-11-13"
     }
   ],
   "icon_sha256": "c0277d3615f21086377c4f04609f9b9e903c06f31a7eb6f5763583ee08ac0e4a",

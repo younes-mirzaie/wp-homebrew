@@ -8,17 +8,17 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrofox.png",
   "releases": [
     {
-      "version": "0.3.10.0",
+      "version": "0.3.11.0",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrofox.Browser",
       "product_id": "6F06E8EC-8324-431B-88EC-9542C6C8C48C",
       "publisher": "CN=Younes",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.10.0_ARM.appx",
-      "sha256": "393ab8e5da42ff251bbdc158acca39a05c6f46bd476fa2d1ebb6c1f21e076af9",
-      "size": 30430608,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.11.0_ARM.appx",
+      "sha256": "f969e399a3c7db3efc4b01c9e8a6e83b0906357fa62107451f04a19f6fc59eab",
+      "size": 30430525,
       "min_os": "8.10.0.0",
-      "notes": "Smoother scrolling: no blank areas, ghosted text or doubled sticky headers while scrolling. Big site scripts get 2 minutes instead of 10 seconds.",
+      "notes": "Smoother scrolling: no blank areas, ghosted text or doubled sticky headers while scrolling. Instagram and other script-heavy sites load (scripts get 2 minutes instead of 10 seconds).",
       "added": "2026-11-14"
     }
   ],

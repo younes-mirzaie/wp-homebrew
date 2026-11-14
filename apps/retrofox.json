@@ -8,17 +8,17 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrofox.png",
   "releases": [
     {
-      "version": "0.3.8.1",
+      "version": "0.3.10.0",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrofox.Browser",
       "product_id": "6F06E8EC-8324-431B-88EC-9542C6C8C48C",
       "publisher": "CN=Younes",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.8.1_ARM.appx",
-      "sha256": "6b80ef3d26ac28b9a906f23e1d848a10d5b5f87b1181e112f020eca53218255d",
-      "size": 30429836,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.10.0_ARM.appx",
+      "sha256": "393ab8e5da42ff251bbdc158acca39a05c6f46bd476fa2d1ebb6c1f21e076af9",
+      "size": 30430608,
       "min_os": "8.10.0.0",
-      "notes": "Sites' motion effects and size rules work (parallax, newer layout rules).",
+      "notes": "Smoother scrolling: no blank areas, ghosted text or doubled sticky headers while scrolling. Big site scripts get 2 minutes instead of 10 seconds.",
       "added": "2026-11-14"
     }
   ],

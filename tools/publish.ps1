@@ -15,7 +15,10 @@ param(
     [string]$CatalogTool = "C:\rfx\wp-loader\app-loader\catalog\tools\catalog.py",
     [switch]$NoPush
 )
-$ErrorActionPreference = "Stop"
+# "Continue": git writes harmless warnings (line endings) to stderr, which "Stop" would turn into
+# errors in Windows PowerShell 5; failures are caught with $LASTEXITCODE checks instead
+$ErrorActionPreference = "Continue"
+function RunGit { & git.exe @args 2>&1 | ForEach-Object { "$_" } | Where-Object { $_ -notmatch "LF will be replaced|CRLF will be replaced" }; if ($LASTEXITCODE -ne 0) { throw "git $($args -join ' ') failed (exit $LASTEXITCODE)" } }
 $repo = Split-Path $PSScriptRoot -Parent
 Set-Location $repo
 
@@ -24,7 +27,7 @@ if (-not (Test-Path $appFile)) { throw "No $appFile (known: $((Get-ChildItem app
 if (-not (Test-Path $Package)) { throw "No package at $Package" }
 foreach ($need in @($Key, $CatalogTool)) { if (-not (Test-Path $need)) { throw "Missing $need" } }
 
-git pull -q --ff-only
+RunGit pull -q --ff-only
 $raw = Get-Content $appFile -Raw
 $r = ($raw | ConvertFrom-Json).releases[0]
 if ($r.version -eq $Version) { throw "$App $Version is already the catalog's release" }
@@ -49,7 +52,7 @@ Set-Content $appFile $raw -NoNewline
 # Check the result before anything is signed
 $n = (Get-Content $appFile -Raw | ConvertFrom-Json).releases[0]
 if ($n.version -ne $Version -or $n.sha256 -ne $sha -or $n.size -ne $size -or $n.url -ne $newUrl -or $n.notes -ne $Notes) {
-    git checkout -- $appFile
+    RunGit checkout -- $appFile
     throw "Updating $appFile didn't come out right; left unchanged"
 }
 
@@ -57,13 +60,13 @@ if (Test-Path "packages\$oldName") { git mv "packages\$oldName" "packages\$newNa
 Copy-Item $Package "packages\$newName" -Force
 python -I $CatalogTool build --key $Key --app-dir apps --out dist
 if ($LASTEXITCODE -ne 0) { throw "Signing the index failed" }
-git add apps dist packages
+RunGit add apps dist packages
 
 $msg = Join-Path $env:TEMP "wp-homebrew-msg.txt"
 "$App $Version`n`n$Notes`n`nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" | Set-Content $msg
-git commit -q -F $msg
+RunGit commit -q -F $msg
 if ($NoPush) { Write-Host "Committed, not pushed (-NoPush)."; return }
-git push -q
+RunGit push -q
 if ($LASTEXITCODE -ne 0) { throw "Push failed" }
 
 # Live once GitHub Pages serves the new index

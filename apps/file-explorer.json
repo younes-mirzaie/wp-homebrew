@@ -8,18 +8,18 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/file-explorer.png",
   "releases": [
     {
-      "version": "0.1.5.0",
+      "version": "0.1.6.0",
       "kind": "xap81",
       "arch": "neutral",
       "package_name": "RetroFiles",
       "product_id": "4F2D373F-9B22-4224-9D65-5D974F803959",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/FileExplorer_0.1.5.0.xap",
-      "sha256": "25e3fce62cced16df5f5969859a5652fe242d4bd3227e689923557961e9b9f61",
-      "size": 205489,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/FileExplorer_0.1.6.0.xap",
+      "sha256": "b873c96be946ab554c977428d864f5fad654e0e25e25b3f235832233c2d13e3e",
+      "size": 205526,
       "min_os": "8.10.0.0",
-      "notes": "",
-      "added": "2026-11-13"
+      "notes": "The rename and new folder prompts are readable in the light theme.",
+      "added": "2026-11-15"
     }
   ],
   "icon_sha256": "9bea8c02dc58550512c4f86c39dc2950b5d46df82a555f934842707d9962912a",

@@ -46,7 +46,8 @@ $raw = $raw.Replace('"version": "' + $r.version + '"', '"version": "' + $Version
             Replace($r.sha256, $sha).
             Replace('"size": ' + $r.size + ',', '"size": ' + $size + ',').
             Replace('"added": "' + $r.added + '"', '"added": "' + $today + '"')
-if ($r.notes) { $raw = $raw.Replace('"notes": ' + ($r.notes | ConvertTo-Json), '"notes": ' + ($Notes | ConvertTo-Json)) }
+# The first "notes" field is the release being replaced (empty or not)
+$raw = ([regex]'"notes":\s*"(?:[^"\\]|\\.)*"').Replace($raw, ('"notes": ' + ($Notes | ConvertTo-Json)), 1)
 Set-Content $appFile $raw -NoNewline
 
 # Check the result before anything is signed

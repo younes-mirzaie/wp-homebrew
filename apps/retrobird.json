@@ -8,18 +8,18 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrobird.png",
   "releases": [
     {
-      "version": "0.4.0.0",
+      "version": "0.5.0.0",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrobird",
       "product_id": "C3AEE8D4-1737-44DD-9024-374293813696",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.4.0.0_ARM.appx",
-      "sha256": "58c5be28310b800f57645fce8c1997d976c484196cad0c67117426b9face1b3d",
-      "size": 1952856,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.5.0.0_ARM.appx",
+      "sha256": "528538cccf5192e33fbefed8feb05bc93d3466aee90d52ca3a51f580c81a751e",
+      "size": 1966084,
       "min_os": "8.10.0.0",
-      "notes": "Outlook.com and Hotmail sign in with Microsoft: enter the code shown at microsoft.com/link (opens in Retrofox).",
-      "added": "2026-11-14"
+      "notes": "New mail shows on the lock screen (count and status), and a wide tile with the name beside the bird.",
+      "added": "2026-11-15"
     }
   ],
   "icon_sha256": "99a005ef390ee1a5e4c94698a9f9d1ae960f5611b7fc6c3dbf24317a75cf020c",

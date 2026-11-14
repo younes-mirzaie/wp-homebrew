@@ -8,17 +8,17 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrofox.png",
   "releases": [
     {
-      "version": "0.3.6.0",
+      "version": "0.3.7.0",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrofox.Browser",
       "product_id": "6F06E8EC-8324-431B-88EC-9542C6C8C48C",
       "publisher": "CN=Younes",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.6.0_ARM.appx",
-      "sha256": "9d4a177c2b5a748fce607c4b5032edcac7b7e32b56543fbfa3815d9958067a59",
-      "size": 30430394,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.7.0_ARM.appx",
+      "sha256": "e21389e6e943421a491de7763a0f1ec6d4505214c2d0cb84b6f763090b65b9d4",
+      "size": 30431182,
       "min_os": "8.10.0.0",
-      "notes": "Fixes 0.3.5's scrolling glitches; scroll steps handled together.",
+      "notes": "Windows Phone page animations and layout; fixes 0.3.5's scrolling glitches.",
       "added": "2026-11-14"
     }
   ],

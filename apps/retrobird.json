@@ -8,17 +8,17 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrobird.png",
   "releases": [
     {
-      "version": "0.3.0.0",
+      "version": "0.4.0.0",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrobird",
       "product_id": "C3AEE8D4-1737-44DD-9024-374293813696",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.3.0.0_ARM.appx",
-      "sha256": "55dd6e7c559af3084f33e8dd2520748e8e8f11fbd872e2226f5489f165fd53c8",
-      "size": 1941145,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.4.0.0_ARM.appx",
+      "sha256": "58c5be28310b800f57645fce8c1997d976c484196cad0c67117426b9face1b3d",
+      "size": 1952856,
       "min_os": "8.10.0.0",
-      "notes": "New-mail notifications, live tile, and Gmail signs in with your full address.",
+      "notes": "Outlook.com and Hotmail sign in with Microsoft: enter the code shown at microsoft.com/link (opens in Retrofox).",
       "added": "2026-11-14"
     }
   ],

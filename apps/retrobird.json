@@ -8,17 +8,17 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrobird.png",
   "releases": [
     {
-      "version": "0.6.0.0",
+      "version": "0.6.1.0",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrobird",
       "product_id": "C3AEE8D4-1737-44DD-9024-374293813696",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.6.0.0_ARM.appx",
-      "sha256": "0462dd87a467da14a7a237313fcae5d6da3843c1ce54e8ae1295e0b00b146492",
-      "size": 1971133,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.6.1.0_ARM.appx",
+      "sha256": "1c086e817cca51c9e2fbd5cfd3ee44b34ceba490cced7642cb19c34d8c3d52c1",
+      "size": 1971690,
       "min_os": "8.10.0.0",
-      "notes": "All inboxes in one list, quick switching between inboxes, and you choose which account sends.",
+      "notes": "All inboxes in one list, quick switching between inboxes, and you choose which account sends. Fixes a crash when tapping while a page opens, and error messages no longer collide.",
       "added": "2026-11-15"
     }
   ],

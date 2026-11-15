@@ -8,18 +8,18 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrofox.png",
   "releases": [
     {
-      "version": "0.3.14.0",
+      "version": "0.3.15.0",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrofox.Browser",
       "product_id": "6F06E8EC-8324-431B-88EC-9542C6C8C48C",
       "publisher": "CN=Younes",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.14.0_ARM.appx",
-      "sha256": "3c1f1235fcd1237825c2836d9f1b22d99a95b6182e548fd5a72f4c340226afbd",
-      "size": 30430918,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.15.0_ARM.appx",
+      "sha256": "57fc4e15d92f53af2b5cc0f93ad93f81bedf15e2ac8f59bfcf96df90f35acddf",
+      "size": 31148627,
       "min_os": "8.10.0.0",
-      "notes": "Follows the phone\u0027s light or dark theme: the address bar, find box and messages match it, and pages that support it switch to dark or light with the phone.",
-      "added": "2026-11-15"
+      "notes": "New experimental setting: Settings \u003e Faster JavaScript. When on (after restarting Retrofox), page scripts are compiled to machine code: in tests, script-heavy work ran 2 to 50 times faster. It\u0027s off by default; if pages misbehave or Retrofox closes, turn it off again.",
+      "added": "2026-11-16"
     }
   ],
   "icon_sha256": "ddfdccbe71a44468709fc28fe8d41f32199e8654090fda3aea92117b5a1fe4a2",

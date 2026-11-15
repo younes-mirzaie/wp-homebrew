@@ -8,18 +8,18 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/app-loader.png",
   "releases": [
     {
-      "version": "0.1.11.0",
+      "version": "0.1.12.0",
       "kind": "xap81",
       "arch": "neutral",
       "package_name": "AppLoader",
       "product_id": "0145BB18-825E-4266-9094-5CA73FEF56A9",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Unesbrews_0.1.11.0.xap",
-      "sha256": "9e90feff3053162aa26f63ce9bab114048dda1f924789b783d353d302d72e3e2",
-      "size": 1921307,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Unesbrews_0.1.12.0.xap",
+      "sha256": "941dea4273ce9670fcb93f93e0a1b383237ec39536e9cad9ad55a39f004bc6b9",
+      "size": 1921373,
       "min_os": "8.10.0.0",
-      "notes": "Installs carry on when the app is minimized or the phone locks, with notifications. Install, update and Open buttons in the app bar; no blank band under the lists.",
-      "added": "2026-11-14"
+      "notes": "Follows the light theme: the main page and every other page use the phone\u0027s background.",
+      "added": "2026-11-15"
     }
   ],
   "icon_sha256": "c0277d3615f21086377c4f04609f9b9e903c06f31a7eb6f5763583ee08ac0e4a",

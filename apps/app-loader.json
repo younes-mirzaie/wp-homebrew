@@ -8,17 +8,17 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/app-loader.png",
   "releases": [
     {
-      "version": "0.1.12.0",
+      "version": "0.1.13.0",
       "kind": "xap81",
       "arch": "neutral",
       "package_name": "AppLoader",
       "product_id": "0145BB18-825E-4266-9094-5CA73FEF56A9",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Unesbrews_0.1.12.0.xap",
-      "sha256": "941dea4273ce9670fcb93f93e0a1b383237ec39536e9cad9ad55a39f004bc6b9",
-      "size": 1921373,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Unesbrews_0.1.13.0.xap",
+      "sha256": "417d7e48eed55fb97bf8bb2377ce3c854d500fb7788c341457870a8221fdd2d4",
+      "size": 1921374,
       "min_os": "8.10.0.0",
-      "notes": "Follows the light theme: the main page and every other page use the phone\u0027s background.",
+      "notes": "Follows the light theme from the first launch: opening from the tile starts fresh, so the theme is read at start.",
       "added": "2026-11-15"
     }
   ],

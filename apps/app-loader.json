@@ -8,17 +8,17 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/app-loader.png",
   "releases": [
     {
-      "version": "0.1.13.0",
+      "version": "0.1.14.0",
       "kind": "xap81",
       "arch": "neutral",
       "package_name": "AppLoader",
       "product_id": "0145BB18-825E-4266-9094-5CA73FEF56A9",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Unesbrews_0.1.13.0.xap",
-      "sha256": "417d7e48eed55fb97bf8bb2377ce3c854d500fb7788c341457870a8221fdd2d4",
-      "size": 1921374,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Unesbrews_0.1.14.0.xap",
+      "sha256": "4b5a139a2562fe5ff477bc4064232563806c98412730420d231824234ab6a972",
+      "size": 1921800,
       "min_os": "8.10.0.0",
-      "notes": "Follows the light theme from the first launch: opening from the tile starts fresh, so the theme is read at start.",
+      "notes": "Keeps the last five install logs so a failed install can be checked later.",
       "added": "2026-11-15"
     }
   ],

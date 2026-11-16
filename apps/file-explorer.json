@@ -1,6 +1,6 @@
 {
   "id": "file-explorer",
-  "name": "File Explorer",
+  "name": "Root Explorer",
   "author": "",
   "description": "Root file manager: whole filesystem, copy/move/delete, viewer, web access.",
   "license": "",
@@ -8,18 +8,18 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/file-explorer.png",
   "releases": [
     {
-      "version": "0.1.7.0",
+      "version": "0.1.9.0",
       "kind": "xap81",
       "arch": "neutral",
       "package_name": "RetroFiles",
       "product_id": "4F2D373F-9B22-4224-9D65-5D974F803959",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/FileExplorer_0.1.7.0.xap",
-      "sha256": "016962f81a8ff61ac0f40e75907e31c892c16908335b66754d0b881ee67627b6",
-      "size": 205565,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/FileExplorer_0.1.9.0.xap",
+      "sha256": "091c79dc9cf966cb4953e5f61192d631403a0ab9f31b2ecc7d19f3c84e74f83a",
+      "size": 205567,
       "min_os": "8.10.0.0",
-      "notes": "Follows the light theme on every page: the phone\u0027s background colour is used throughout.",
-      "added": "2026-11-15"
+      "notes": "File Explorer is now called Root Explorer, so it is not confused with the File Explorer built into Windows 10 Mobile. It updates the existing app in place and keeps your settings.",
+      "added": "2026-11-16"
     }
   ],
   "icon_sha256": "9bea8c02dc58550512c4f86c39dc2950b5d46df82a555f934842707d9962912a",

@@ -4,7 +4,7 @@
   "author": "",
   "description": "Gecko-based web browser with modern TLS.",
   "license": "MPL-2.0",
-  "source": "",
+  "source": "https://github.com/younes-mirzaie/retrofox-src",
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrofox.png",
   "releases": [
     {
@@ -18,7 +18,7 @@
       "sha256": "57fc4e15d92f53af2b5cc0f93ad93f81bedf15e2ac8f59bfcf96df90f35acddf",
       "size": 31148627,
       "min_os": "8.10.0.0",
-      "notes": "New experimental setting: Settings \u003e Faster JavaScript. When on (after restarting Retrofox), page scripts are compiled to machine code: in tests, script-heavy work ran 2 to 50 times faster. It\u0027s off by default; if pages misbehave or Retrofox closes, turn it off again.",
+      "notes": "New experimental setting: Settings > Faster JavaScript. When on (after restarting Retrofox), page scripts are compiled to machine code: in tests, script-heavy work ran 2 to 50 times faster. It's off by default; if pages misbehave or Retrofox closes, turn it off again.",
       "added": "2026-11-16"
     }
   ],

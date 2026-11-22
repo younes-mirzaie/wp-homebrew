@@ -4,7 +4,7 @@
   "author": "",
   "description": "Root file manager: whole filesystem, copy/move/delete, viewer, web access.",
   "license": "MPL-2.0",
-  "source": "",
+  "source": "https://github.com/younes-mirzaie/homebrews-windows",
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/file-explorer.png",
   "releases": [
     {

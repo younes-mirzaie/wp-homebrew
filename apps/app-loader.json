@@ -4,7 +4,7 @@
   "author": "",
   "description": "Homebrew apps by Younes",
   "license": "MPL-2.0",
-  "source": "",
+  "source": "https://github.com/younes-mirzaie/homebrews-windows",
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/app-loader.png",
   "releases": [
     {

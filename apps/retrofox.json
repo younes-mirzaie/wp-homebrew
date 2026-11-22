@@ -8,18 +8,18 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrofox.png",
   "releases": [
     {
-      "version": "0.3.15.0",
+      "version": "0.3.16.2",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrofox.Browser",
       "product_id": "6F06E8EC-8324-431B-88EC-9542C6C8C48C",
       "publisher": "CN=Younes",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.15.0_ARM.appx",
-      "sha256": "57fc4e15d92f53af2b5cc0f93ad93f81bedf15e2ac8f59bfcf96df90f35acddf",
-      "size": 31148627,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrofox_0.3.16.2_ARM.appx",
+      "sha256": "76880af39ac21a74a33ac254e67fb55f8d79457c44eed59f25e0142486a2a209",
+      "size": 31148071,
       "min_os": "8.10.0.0",
-      "notes": "New experimental setting: Settings > Faster JavaScript. When on (after restarting Retrofox), page scripts are compiled to machine code: in tests, script-heavy work ran 2 to 50 times faster. It's off by default; if pages misbehave or Retrofox closes, turn it off again.",
-      "added": "2026-11-16"
+      "notes": "Retrofox now runs on Windows 10 Mobile too (tested on a Lumia 950), alongside Windows Phone 8.1. Also fixes a start-up problem in the engine on ARM phones.",
+      "added": "2026-11-22"
     }
   ],
   "icon_sha256": "ddfdccbe71a44468709fc28fe8d41f32199e8654090fda3aea92117b5a1fe4a2",

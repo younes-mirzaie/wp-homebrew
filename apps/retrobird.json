@@ -3,7 +3,7 @@
   "name": "Retrobird",
   "author": "",
   "description": "Mail client with modern TLS (IMAP/SMTP).",
-  "license": "",
+  "license": "MPL-2.0",
   "source": "",
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrobird.png",
   "releases": [

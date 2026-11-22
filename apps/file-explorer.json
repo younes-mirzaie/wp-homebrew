@@ -3,7 +3,7 @@
   "name": "Root Explorer",
   "author": "",
   "description": "Root file manager: whole filesystem, copy/move/delete, viewer, web access.",
-  "license": "",
+  "license": "MPL-2.0",
   "source": "",
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/file-explorer.png",
   "releases": [

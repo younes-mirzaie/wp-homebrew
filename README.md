@@ -20,3 +20,8 @@ git add apps dist packages && git commit -m "Add Some 1.0.0.0" && git push
 
 The signing key never goes in this repo or in CI. Its public half is built into Unesbrews.
 Only list apps that may be redistributed.
+
+## License
+
+The catalog tooling and data in this repo are licensed under the [Mozilla Public License 2.0](LICENSE).
+Each package in `packages/` keeps its own app's license, listed in its `apps/<id>.json`.

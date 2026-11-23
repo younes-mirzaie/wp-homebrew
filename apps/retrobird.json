@@ -8,17 +8,17 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrobird.png",
   "releases": [
     {
-      "version": "0.7.3.0",
+      "version": "0.7.5.0",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrobird",
       "product_id": "C3AEE8D4-1737-44DD-9024-374293813696",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.7.3.0_ARM.appx",
-      "sha256": "d7fb499f229a65b1fd32599c40e7e659204f606d98442aad33d3aefda2bcafc0",
-      "size": 1993172,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.7.5.0_ARM.appx",
+      "sha256": "7bf981d9efab0e3a34e65599a0e4abaacd77ff04b89cb2c78928803ce19cd412",
+      "size": 1995644,
       "min_os": "8.10.0.0",
-      "notes": "Rebuilt from scratch in the Windows Phone style: all inboxes together, a preview line under each subject, new live tiles and a Settings page. Long messages now open reliably.",
+      "notes": "Rebuilt from scratch in the Windows Phone style: all inboxes together, a preview line under each subject, new live tiles and a Settings page. Message headers scroll away with the mail, pictures show by default (never in junk), and attachments open from inside the message.",
       "added": "2026-11-23"
     }
   ],

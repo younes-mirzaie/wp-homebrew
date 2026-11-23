@@ -4,7 +4,7 @@
 #
 #   .\tools\publish.ps1 -App retrofox -Package <path to .appx/.xap> -Version 0.3.14.0 -Notes "What changed, in plain words."
 #
-# Apps: app-loader (Unesbrews, .xap), retrobird (.appx), retrofox (.appx), file-explorer (.xap).
+# Apps: app-loader (Unesbrews, .xap), retrobird (.appx), retrobird10 (Windows 10 .appx), retrofox (.appx), file-explorer (.xap).
 # The signing key stays outside the repo (default C:\rfx\keys\wp-homebrew.pem).
 param(
     [Parameter(Mandatory = $true)][string]$App,

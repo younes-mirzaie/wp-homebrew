@@ -1,0 +1,28 @@
+{
+  "id": "retrobird10",
+  "name": "Retrobird",
+  "author": "",
+  "description": "Mail client with modern TLS (IMAP/SMTP), made for Windows 10 Mobile.",
+  "license": "MPL-2.0",
+  "source": "https://github.com/younes-mirzaie/homebrews-windows",
+  "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrobird.png",
+  "replaces": "retrobird",
+  "releases": [
+    {
+      "version": "0.7.4.0",
+      "kind": "appx",
+      "arch": "arm",
+      "package_name": "Retrobird10",
+      "product_id": "F82DB4B7-6925-4533-8FF9-2542D492B037",
+      "publisher": "CN=Retrobird",
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird10_0.7.4.0_ARM.appx",
+      "sha256": "f782716b6cbff92a3d05b9d60eac4824eff102b32b7381c2f8409f2b94d9a95d",
+      "size": 2820384,
+      "min_os": "10.0.15063.0",
+      "notes": "First Windows 10 Mobile version, with a native Windows 10 design. Message headers slide away while you read, and pictures show by default (never in junk).",
+      "added": "2026-11-23"
+    }
+  ],
+  "icon_sha256": "99a005ef390ee1a5e4c94698a9f9d1ae960f5611b7fc6c3dbf24317a75cf020c",
+  "icon_size": 2262
+}

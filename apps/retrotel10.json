@@ -1,0 +1,27 @@
+{
+    "id":  "retrotel10",
+    "name":  "RetroTel",
+    "author":  "",
+    "description":  "Telegram client, made for Windows 10 Mobile.",
+    "license":  "MIT",
+    "source":  "https://github.com/younes-mirzaie/homebrews-windows",
+    "icon":  "https://younes-mirzaie.github.io/wp-homebrew/icons/retrotel.png",
+    "releases":  [
+                     {
+                         "version":  "0.2.0.0",
+                         "kind":  "appx",
+                         "arch":  "arm",
+                         "package_name":  "RetroTel10",
+                         "product_id":  "F8AAF068-B4B0-498B-BB38-77EF7913F802",
+                         "publisher":  "CN=RetroTel",
+                         "url":  "https://younes-mirzaie.github.io/wp-homebrew/packages/RetroTel10_0.2.0.0_ARM.appx",
+                         "sha256":  "cb80c3d4a7982a0c46127fc13704289fc67168a6306111183fd8d762139ab56e",
+                         "size":  2806500,
+                         "min_os":  "10.0.15063.0",
+                         "notes":  "First version: a native Windows 10 Mobile Telegram client. Sign in with your phone number.",
+                         "added":  "2026-11-23"
+                     }
+                 ],
+    "icon_sha256":  "b0dccdc05f2cd37ca7fb8bb942314ea03edab47a03e2b51ef83a9cf17c1c3ff2",
+    "icon_size":  3392
+}

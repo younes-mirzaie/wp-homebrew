@@ -2,9 +2,9 @@
     "id":  "retrotel10",
     "name":  "RetroTel",
     "author":  "",
-    "description":  "Telegram client, made for Windows 10 Mobile.",
+    "description":  "Telegram client",
     "license":  "MIT",
-    "source":  "https://github.com/younes-mirzaie/homebrews-windows",
+    "source":  "https://github.com/younes-mirzaie/homebrews-windows/tree/main/retrotel",
     "icon":  "https://younes-mirzaie.github.io/wp-homebrew/icons/retrotel.png",
     "releases":  [
                      {

@@ -8,18 +8,18 @@
   "icon": "https://younes-mirzaie.github.io/wp-homebrew/icons/retrobird.png",
   "releases": [
     {
-      "version": "0.6.1.0",
+      "version": "0.7.3.0",
       "kind": "appx",
       "arch": "arm",
       "package_name": "Retrobird",
       "product_id": "C3AEE8D4-1737-44DD-9024-374293813696",
       "publisher": "CN=Retrofox",
-      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.6.1.0_ARM.appx",
-      "sha256": "1c086e817cca51c9e2fbd5cfd3ee44b34ceba490cced7642cb19c34d8c3d52c1",
-      "size": 1971690,
+      "url": "https://younes-mirzaie.github.io/wp-homebrew/packages/Retrobird_0.7.3.0_ARM.appx",
+      "sha256": "d7fb499f229a65b1fd32599c40e7e659204f606d98442aad33d3aefda2bcafc0",
+      "size": 1993172,
       "min_os": "8.10.0.0",
-      "notes": "All inboxes in one list, quick switching between inboxes, and you choose which account sends. Fixes a crash when tapping while a page opens, and error messages no longer collide.",
-      "added": "2026-11-15"
+      "notes": "Rebuilt from scratch in the Windows Phone style: all inboxes together, a preview line under each subject, new live tiles and a Settings page. Long messages now open reliably.",
+      "added": "2026-11-23"
     }
   ],
   "icon_sha256": "99a005ef390ee1a5e4c94698a9f9d1ae960f5611b7fc6c3dbf24317a75cf020c",
